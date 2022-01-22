@@ -139,14 +139,14 @@ void LogOn(Modem& m, string& pno, string& user, string& pw) {
 }
 ```
 
-![Alt Text](pic2.png) 
+![Alt Text](pictures/pic2.png) 
 
 ### Open for extension
 * Able to add **new features**
 * Able to add new methods easily and code modules support new functionality
 
 
-![Alt Text](pic1.png) 
+![Alt Text](pictures/pic1.png) 
 
 ### Closed for modification
 We don’t want the way we currently use the code module to change. For example methods change name or signature could easily break existing client code
@@ -174,7 +174,7 @@ If your program is architected in a way that breaks the OCP, then **adding new f
 > Derived classes should be substitutable for their base classes. That is, a user of a base class should continue to function properly if a derivative of that base class is passed to it. <br />
 > -- Robert C Martin
 
-![Alt Text](pic3.png) 
+![Alt Text](pictures/pic3.png) 
 
 * You should always be able to use an instance of a subclass when the code is expecting an instance of the base class. And the software shouldn’t break if you do so
 * Derived from ***design by contract*** by Bertrand Meyer.
@@ -182,7 +182,7 @@ If your program is architected in a way that breaks the OCP, then **adding new f
 
 ### The Circle/Ellipse Dilemma.
 
-![Alt Text](pic4.png) 
+![Alt Text](pictures/pic4.png) 
 
 **Circle:** has 2 data elements: radius, centre.
 **Ellipse:** has 3 data elements: radius, foci, centre.
@@ -289,10 +289,10 @@ Dependency Inversion is the strategy of **depending upon interfaces or abstract 
 Moreover, the modules that contain detailed implementation are no longer depended upon, rather they depend themselves upon abstractions. **Thus the dependency upon them has been inverted**.
 
 **Depending on implementation modules:**
-![Alt Text](pic5.png) 
+![Alt Text](pictures/pic5.png) 
 
 **Depending on absctractions:**
-![Alt Text](pic6.png) 
+![Alt Text](pictures/pic6.png) 
 
 ### Why follow DIP?
 When high level modules deal with the high level policies of the application. These policies generally care little about the details that implement them. Why then, must these high level modules directly depend upon those implementation modules?
