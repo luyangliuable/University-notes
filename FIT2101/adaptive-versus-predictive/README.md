@@ -1,6 +1,6 @@
 # Adaptive vs predictive
 
-| Adaptive process                                                 | Iterative process                     |
+| Adaptive process                                                 | predictive process                    |
 |------------------------------------------------------------------|---------------------------------------|
 | Iterative development                                            |                                       |
 | Frequent delivery on working final system and required features. |                                       |
