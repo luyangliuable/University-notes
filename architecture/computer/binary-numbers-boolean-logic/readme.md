@@ -132,7 +132,8 @@ TODO why is this important
 * Minterm: The logical AND or logical product of two or more Boolean variables or the complements of these variables
   * e.g. A.B.C, A'.B.C and AB'C
   
-* Maxterm: The logical OR or logical sum of two or more Boolean variables or the complements of these variables
+* Maxterm: The logical OR or logical sum of two or more Boolean variables or the
+  complements of these variables
   * A+B+C, A'+B+C, A+B'+C 
 
 ## Boolean expression order of evaluation
