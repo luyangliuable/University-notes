@@ -1,35 +1,26 @@
-# Workshop 1 notes
-2022-03-03
+# Fully dressed Use case for uploading a video
 
-<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
-**Table of Contents**
+Actors: User (logged in)
+Purpose: Upload a video onto iSee
+Description: The user wants to upload a video to iSee for others to see. 
 
-- [Workshop 1 notes](#workshop-1-notes)
-    - [Selections](#selections)
-    - [Overall timeline](#overall-timeline)
-
-<!-- markdown-toc end -->
+Type: Primary Use case
+Pre-condition: The user has a video, a title and a short description
+Post-condition: The video is uploaded
 
 
-## Selections
+| Flow of events                                |                                                               |
+|:---------------------------------------------:|:-------------------------------------------------------------:|
+| Actor actions                                 | System response                                               |
+| 1. The user begins with logging in the system | Authenticates the user and refresh screen                     |
+| 2. The user navigates to the upload page      | User is shown with an option to drop video file in and submit |
+| 3. The user uploads video                     |                                                               |
+|                                               |                                                               |
+|                                               |                                                               |
+|                                               |                                                               |
+|                                               |                                                               |
+|                                               |                                                               |
 
-1.  [ 5 ] Loyalty points program for chain hotels
-2.  [ 5 ] TechStackz.com
-3.  [ 5 ] Toolkit for usability and accessibility testing Android apps
-4.  [ 6 ] Development of android app as talk back tutorial
-6. [ 6 ] Monash health services: Mobile App
-6. [ 6 ] Monash Health services: Turning points training chatbot
-7. [ 6 ] Astrophysics Data visualiser
-8. [ 6 ] Machine learning video editing toolkit
 
-## Overall timeline
 
-* Week 1-3, Requirement elicitation and architectural design
-* Week 4-12, Project development and initial devilry
-* Week 13-18, Software testing and redevelopment
-* Week 19-24, Software promotion.
-
-What licence?
-
-## Student responsibility
-TODO
+stai0006@student.monash.edu.au

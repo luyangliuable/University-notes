@@ -24,8 +24,7 @@
 Design processes require a lot of practice..
 
 [Where to start?][agilemodeling] Start by understanding the problem domain. Draw models of the problem domain, e.g.
-      – Conceptual or Domain Class Diagrams (to understand the
-      concepts within the domain, and how they are related)
+      – Conceptual or Domain Class Diagrams (to understand the concepts within the domain, and how they are related)
       – activity diagrams (to model business processes)
 
 These can be evolved towards a design. Understanding the problem better will often make a solution obvious.
