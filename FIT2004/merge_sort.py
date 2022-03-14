@@ -39,6 +39,7 @@ def mergesort(arr):
             j += 1
             k += 1
 
-arr = [12,3,2,2,1,2,3,3,4,5,6,7,8,8,9,9,4,31,2]
-mergesort(arr)
-print(arr)
+if __name__ == 'main':
+    arr = [12,3,2,2,1,2,3,3,4,5,6,7,8,8,9,9,4,31,2]
+    mergesort(arr)
+    print(arr)

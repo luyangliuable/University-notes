@@ -9,12 +9,14 @@ def radix_pass(input_list: list[int], base, digit):
     counter = [0]*(base)
 
     pos = [0]*(base)
-    pos[0] = 1
+    # pos[0] = 1
     for i in range(len(input_list)):
         counter[get_digit(input_list[i], digit)] += 1
 
     for i in range(base):
         pos[i] = sum(counter[:i])
+
+    print(pos)
 
     temp = [0]*len(input_list)
 
