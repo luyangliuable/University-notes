@@ -47,6 +47,7 @@ def quicksort(arr, low, high):
         quicksort(arr, pi+1, high)
 
 
-arr = [1,2,3,31,4,5,6,7,7,8,8,9,2,1]
+# arr = [1,2,3,31,4,5,6,7,7,8,8,9,2,1]
+arr = [8]*10
 quicksort(arr, 0, len(arr)-1)
 print(arr)

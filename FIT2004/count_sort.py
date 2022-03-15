@@ -1,7 +1,6 @@
 import random
 import time
 
-
 def count_sort(dictionary: list[int], input_list: list[int]) -> tuple:
 
     count = [0]*len(dictionary)
@@ -23,6 +22,7 @@ def count_sort(dictionary: list[int], input_list: list[int]) -> tuple:
 
 
 dictionary=[0,1,2,3,4,5,6,7,8,9,10]
+print(len(dictionary))
 input = [ random.choice(dictionary) for _ in range(10) ]
 
 
