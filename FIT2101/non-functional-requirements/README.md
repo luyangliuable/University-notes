@@ -87,13 +87,13 @@ Replaceability – can it replace other software products that do the same thing
 
 ## Functional vs Nonfunctional requirements
 
-| Functional requirements                             | Non-functional requirements                |
-| :-:                                                 | :-:                                        |
-| Easy to spot                                        | Hard to spot                               |
-| Can be visualised often immediately                 | Cannot be immediately visualised           |
-| Can be described using actions                      | Can be described as want (in user stories) |
-| Given inputs A, B, C, the software should compute D |                                            |
-
+| Functional requirements                             | Non-functional requirements                                                      |
+|:---------------------------------------------------:|:--------------------------------------------------------------------------------:|
+| Easy to spot                                        | Hard to spot                                                                     |
+| Can be visualised often immediately                 | Cannot be immediately visualised                                                 |
+| Can be described using actions                      | Can be described as want (in user stories)                                       |
+| Given inputs A, B, C, the software should compute D | Constraint or restrictions on the design of the system across different backlogs |
+|                                                     |                                                                                  |
 ## Why is NFRs hard to deal with?
 
 1. The product may look behave differently to expectations. Usability may be different.

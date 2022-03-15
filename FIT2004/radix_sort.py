@@ -16,8 +16,6 @@ def radix_pass(input_list: list[int], base, digit):
     for i in range(base):
         pos[i] = sum(counter[:i])
 
-    print(pos)
-
     temp = [0]*len(input_list)
 
     for i in range(len(input_list)):
