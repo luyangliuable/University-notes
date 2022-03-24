@@ -110,7 +110,7 @@ A descriptions of the **future state of the Solution under development**
 * Portfolio Vision
   * A longer term context for near term decisions in a way that is **both practical and inspirational**.
 
-* Solution vision TODO
+* Solution vision 
   * Translating the portfolio vision or solution vision **such as architecture and the reason and direction behind the chosen solution**.
   * Links
     * Solution intent

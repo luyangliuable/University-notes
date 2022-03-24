@@ -12,15 +12,6 @@ def getInvCount(arr, n):
 
     return inv_count
 
-# Driver Code
-# for _ in range(10):
-#     arr = []
-#     for _ in range(5):
-#         arr.append(random.randint(0,25))
-#     n = len(arr)
-#     print("for array", arr)
-#     print("Number of inversions are", getInvCount(arr, n))
-
 
 arr = [25, 20, 16, 20, 6]
 n = len(arr)
