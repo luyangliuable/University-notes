@@ -120,7 +120,7 @@ TODO add images
 
 
 ### Cons
-* Violates the Single Responsibility Principle
-* The Singleton pattern can mask bad design, e.g. when the components of the program know too much about each other.
+* Violates the **Single Responsibility Principle**
+* The Singleton pattern **can mask bad design**, e.g. when the components of the program know too much about each other.
 * The pattern requires special treatment in a multi threaded environment
 * It maybe be difficult to unit test the client code of the Singleton because may test frameworks reply on inheritance when producing mock objects.
