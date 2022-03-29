@@ -12,6 +12,12 @@ class adjacency_matrix:
             default_weight = None
             self.matrix = self.matrix + [[default_weight]*(n)]
 
+    def define_matrix(self, M: list[list[int]]) -> None:
+        self.matrix = M
+
+
+    def __len__(self) -> int:
+        return len(self.matrix)
 
     def set_weight(self, first_node: int, second_node: int, weight: int) -> None:
         if first_node != second_node:
