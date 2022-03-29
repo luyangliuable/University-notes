@@ -21,7 +21,8 @@ Objects returned by a factor methods are often referred as products
 
 Sub classes can alter the class of objects being returned by the factory methods
 
-![Factory method structure](Untitled 1.png) 
+![Factory method structure](Untitled\ 1.png ) 
+
 
 ### Applicability
 * Use the factory method when you **don't know beforehand the exact types and dependencies of the objects your code should work with**
