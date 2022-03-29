@@ -3,4 +3,7 @@ assignments/
 assignment/
 .obsidian/
 *.dmg
+.py
+.ipynb_checkpoints
+__pycache__
 .#*
