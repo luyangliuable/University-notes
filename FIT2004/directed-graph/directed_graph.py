@@ -18,12 +18,20 @@ class adjacency_matrix:
             self.matrix[first_node][second_node] = weight
 
 
+    def set_matrix(self, M: list[list[int]]):
+        self.matrix = M
+
+
     def get_weight(self, first_node: int, second_node: int) -> int:
         return self.matrix[first_node][second_node]
 
 
     def get_vertices(self) -> int:
         return self.vertices
+
+
+    def __len__(self):
+        return len(self.matrix)
 
 
     def get_matrix(self) -> list[list[int]]:
