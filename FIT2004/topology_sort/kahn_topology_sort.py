@@ -16,26 +16,28 @@ def kahn_topological_sort(M: list[list[int]]) -> list[int]:
     degrees = [0]*len(M)
     ready = []
 
+    ###############################################################################
+    #                  Degrees from each vertex (incoming edges)                  #
+    ###############################################################################
     for i in range(len(M)):
         for j in range(len(M.get_matrix()[i])):
             if M.get_matrix()[i][j] == 1:
                 degrees[j] += 1
 
+    ###############################################################################
+    #                Append the vertices that has no incoming edges               #
+    ###############################################################################
     for i in range(len(degrees)):
         if degrees[i] == 0:
             ready.append(i)
 
+
     while len( ready ) != 0:
         u = ready.pop(0)
         order.append(u)
-        # for v in range(len(M.get_matrix()[u])):
-        #     print(v)
-
 
         for v in range(len(M.get_matrix()[u])):
-            # print(len(M.get_matrix()[u]))
             if degrees[v] != 0 and M.get_matrix()[u][v] != None:
-                # print(degrees, "has edges left")
                 ready.append(v)
                 degrees[v] -= 1
     return order
