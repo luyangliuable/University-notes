@@ -16,6 +16,8 @@
     - [Singleton](#singleton)
         - [Solution](#solution)
         - [Applicability](#applicability-2)
+    - [Adapter](#adapter)
+        - [Example](#example)
         - [Pros](#pros-2)
         - [Cons](#cons-2)
     - [Behaviour Patterns](#behaviour-patterns)
@@ -133,6 +135,51 @@ TODO add images
 * Use the singleton pattern when a class in your program should have just a **single instance of available to all clients**, for example, a single database object shared by different parts of the program.
 * Use the singleton pattern when you need stricter control over global variables.
 
+
+## Adapter
+
+### Example
+```java
+public interface RowingBoat {
+    void row();
+}
+
+public class Captain(){
+    public void Captain(RowingBoat Boat boat) {
+        this.boat = boat;
+    }
+
+    public String row() {
+        this.boat.row();
+    }
+
+}
+
+public class FishingBoat {
+    public String sail() {
+        return "The fishing boat is sailing";
+    }
+}
+
+public class Adaptor implement RowingBoat {
+    private FishingBoat fishingBoat;
+    public adaptor() {
+        this.fishingBoat = new FishingBoat()''
+            }
+
+    public row() {
+        fishingBoat.sail();
+    }
+
+}
+
+public class Main() {
+  public Main() {
+    Captain captain = new Captain(new FishingBoatAdapter());
+    captain.row();
+  }
+}
+```
 
 ### Pros
 * You can  be sure that a class has **only a single instance**
@@ -309,4 +356,3 @@ Also called a snapshot
 * Saving and restoring can be time-consuming
 * Caretakers should track the originators lifecycle to be able to destroy obsolete mementos.
 * Most dynamic programming languages, such as PHP, Python and javascript, can't guarantee that the state within the memento stays untouched.
-
