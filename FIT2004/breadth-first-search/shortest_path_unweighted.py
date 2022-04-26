@@ -6,7 +6,7 @@ sys.path.append("/Users/rubber/University-notes/FIT2004/")
 import undirected_graph
 import graphs
 
-graph = graphs.graph2
+graph = graphs.graph3
 
 print("length of the graph is", len(graph))
 
@@ -21,9 +21,6 @@ def bfs(M: list[list[int]], s):
         u = queue.pop(0)
         # print(queue)
         for v in range(len(M.get_matrix()[u])):
-            # print("dist v is", dist[v])
-            # print("dist u is", dist[u])
-            # print(dist)
             if dist[v] == math.inf and M.get_matrix()[u][v] != None:
                 pred[v] = u
                 dist[v] = dist[u] + 1
@@ -35,7 +32,7 @@ def reconstruct_shortest_path(s: int, u: int, pred: list[int]):
     assert u > s, "starting point must be smaller than end in undirected graph"
     path = [u]
     while u != s:
-        if u is not None:
+        if u != None:
             path.append(pred[u])
             u = pred[u]
             print("u is", u)
