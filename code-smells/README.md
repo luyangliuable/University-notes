@@ -1,4 +1,42 @@
 # Code Smells
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
+**Table of Contents**
+
+- [Code Smells](#code-smells)
+    - [Notes](#notes)
+        - [Why Ruby for the Code Examples?](#why-ruby-for-the-code-examples)
+    - [List of Code Smells](#list-of-code-smells)
+        - [Alternative Classes with Different Interfaces](#alternative-classes-with-different-interfaces)
+        - [Comments](#comments)
+            - [Documentation Comments](#documentation-comments)
+        - [Data Class](#data-class)
+        - [Data Clumps](#data-clumps)
+        - [Disjointed API](#disjointed-api)
+        - [Divergent Change](#divergent-change)
+        - [Duplicate Code](#duplicate-code)
+        - [Feature Envy](#feature-envy)
+        - [Inappropriate Intimacy](#inappropriate-intimacy)
+        - [Incomplete Library Class](#incomplete-library-class)
+        - [Large Class](#large-class)
+        - [Lazy Class](#lazy-class)
+        - [Long Method](#long-method)
+        - [Long Parameter List](#long-parameter-list)
+        - [Message Chains](#message-chains)
+        - [Metaprogramming Madness](#metaprogramming-madness)
+        - [Middle Man](#middle-man)
+        - [Parallel Inheritance Hierarchies](#parallel-inheritance-hierarchies)
+        - [Primitive Obsession](#primitive-obsession)
+        - [Refused Bequest](#refused-bequest)
+        - [Repetitive Boilerplate](#repetitive-boilerplate)
+        - [Shotgun Surgery](#shotgun-surgery)
+        - [Speculative Generality](#speculative-generality)
+        - [Switch Statements](#switch-statements)
+        - [Temporary Field](#temporary-field)
+    - [Bibliography](#bibliography)
+    - [License](#license)
+
+<!-- markdown-toc end -->
+
 
 [Code Smell][definition] is a term coined by Kent Beck and introduced in Martin Fowler's book, [Refactoring][refactoring]. Code Smells are patterns of code that suggest there might be a problem, that there might be a better way of writing the code or that more design perhaps should go into it. They were originally intended to be used as a guide for when to refactor code. More recently though, I have found them to be very useful in code reviews as a succinct language for when and how to clean up certain chunks of code. I wanted to document and standardize this language so as to make code reviews more valuable.
 
