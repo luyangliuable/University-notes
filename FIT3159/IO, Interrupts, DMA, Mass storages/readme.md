@@ -166,3 +166,17 @@ end
 
 Pro: Each entry occupies the same space in memory, and that multiple vectors can point to the same ISR. The latter can save memory, where many I/O devices of one type are used.
 Cons: The **ISR must execute an additional jump instruction when it starts**, and this can cost performance in a slower CPU.
+
+
+## Example
+100ns to poll
+1000 ns to run ISR <- service time
+25ns  <- reg decoding
+
+
+10 devices
+
+1. Polling - no devices to be serviced = 1000ns
+           - 1 device to be serviced = 9*100 + 1000
+           - no devices to be serviced = 0
+           - 2 devices to be served = 2000ns + 25

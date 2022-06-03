@@ -22,8 +22,8 @@ public class FishingBoat {
 public class Adaptor implement RowingBoat {
     private FishingBoat fishingBoat;
     public adaptor() {
-        this.fishingBoat = new FishingBoat()''
-            }
+        this.fishingBoat = new FishingBoat()
+    }
 
     public row() {
         fishingBoat.sail();
