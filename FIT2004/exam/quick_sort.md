@@ -3,6 +3,13 @@
 **Table of Contents**
 
 - [Quick sort](#quick-sort)
+    - [Pseudocode:](#pseudocode)
+    - [Time complexity](#time-complexity)
+    - [Proof of correctness](#proof-of-correctness)
+        - [Invariant](#invariant)
+        - [Starting](#starting)
+        - [Maintenance](#maintenance)
+        - [Termination](#termination)
 
 <!-- markdown-toc end -->
 
@@ -57,3 +64,28 @@ function dnf_partition(arr[1..n], lo, hi, pivot): // pivot should be determined 
 
     return lo, mid
 ```
+
+## Time complexity
+O(nlog(n)) worst case if pivot is in the 30% to 70% percentile or middle all the time
+O(n^2) worst case if pivot is the first or last element of the sorted array all the time
+
+
+## Proof of correctness
+
+### Invariant
+* Each partition, the pivot is sorted to it's correct position
+
+
+### Starting
+* There is no partition yet, so no pivots in correct position.
+
+### Maintenance
+* In an ideal situation, the pivot is always close to the center of the array leading to a even split for 2 additional quicksort while the pivot is in the correct position.
+
+### Termination
+* The new partition will continue to place middle element in the correct position until the length of the partition array is 1.
+* At this point all the value in the array are in the correct position hence sorted
+* The algorithm is correct.
+
+
+

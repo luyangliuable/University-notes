@@ -3,7 +3,10 @@ import time
 
 def count_sort(dictionary: list[int], input_list: list[int]) -> tuple:
 
+    # count array is used for counting
     count = [0]*len(dictionary)
+
+    # pos array is used for position
     pos = [0]*len(dictionary)
 
     for i in input_list:
@@ -11,9 +14,9 @@ def count_sort(dictionary: list[int], input_list: list[int]) -> tuple:
 
     for i in range(len(dictionary)):
         pos[i] = sum(count[:i])
-        # pos[i] = pos[i-1] + count[i-1]
 
     temp = [0]*len(input_list)
+
     for i in range(len(input_list)):
         temp[pos[input_list[i]]] = input_list[i]
         pos[input_list[i]] += 1
