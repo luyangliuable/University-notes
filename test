@@ -1,0 +1,1455 @@
+commit 8825d8bae656d9b23efcf5356d4f868a91e26842
+Author: Luyang Liu <luyangl16@gmail.com>
+Date:   Tue Apr 26 16:37:52 2022 +1000
+
+    Added more algorithms
+    
+    On branch algorithms
+    Changes to be committed:
+            new file:   FIT2004/copied_online_algs/bellman_ford_neg_cycle_finder.py
+            new file:   FIT2004/dynamic-programming/Untitled.ipynb
+            new file:   FIT2004/dynamic-programming/bottom_up_coin_change.py
+            new file:   FIT2004/dynamic-programming/door_to_door_salesman.py
+            new file:   FIT2004/dynamic-programming/readme.md
+            new file:   FIT2004/quick-select/quick_select_mixed.py
+
+commit 81393c11eeff02fe2da9663e0a7eca748f746671
+Author: Luyang Liu <luyangl16@gmail.com>
+Date:   Mon Apr 11 16:19:35 2022 +1000
+
+    Updated fit3159 notes and fit2004 algorithms
+    
+    On branch algorithms
+    Changes to be committed:
+            modified:   FIT2004/breadth-first-search/shortest_path_unweighted.py
+            new file:   FIT2004/dynamic-programming/top_down_coin_change.py
+            modified:   FIT2004/graphs.py
+            new file:   FIT2004/shortest_path/dijkstra_algorithm.py
+            new file:   FIT2004/shortest_path/readme.md
+            new file:   FIT3077/workshop6/question1.java
+            new file:   FIT3077/workshop6/readme.md
+            new file:   FIT3159/IO, Interrupts, DMA, Mass storages/readme.md
+            renamed:    FIT3159/computer/binary-numbers-boolean-logic/readme.md -> FIT3159/binary-numbers-boolean-logic/readme.md
+            renamed:    FIT3159/computer/intro/readme.md -> FIT3159/intro/readme.md
+            renamed:    FIT3159/computer/lab1.md -> FIT3159/lab1.md
+            renamed:    FIT3159/computer/tut1.md -> FIT3159/tut1.md
+            renamed:    FIT3159/computer/tut2.md -> FIT3159/tut2.md
+            renamed:    FIT3159/computer/tut3.md -> FIT3159/tut3.md
+            new file:   FIT3159/tut4.md
+            renamed:    FIT3159/computer/week5/instruction-cycles-and-microcoded-units/readme.md -> FIT3159/week5/instruction-cycles-and-microcoded-units/readme.md
+
+commit c52577ddab3886b3df287208c0278ae7ffa53472
+Author: Luyang Liu <luyangl16@gmail.com>
+Date:   Mon Apr 4 20:45:32 2022 +1000
+
+    Added code example for adaptor.
+    
+    On branch algorithms
+    Changes to be committed:
+            modified:   FIT3077/design-patterns/readme.md
+
+commit 60a83545ba18c5766326a08da05aa61b3e93ea76
+Author: Luyang Liu <luyangl16@gmail.com>
+Date:   Mon Apr 4 19:00:56 2022 +1000
+
+    Updated design pattern readme
+    
+    Changes to be committed:
+            modified:   FIT3077/design-patterns/readme.md
+
+commit a453b180b2201b2f564d80e75bcb31d7d044044a
+Author: Luyang Liu <luyangl16@gmail.com>
+Date:   Mon Apr 4 18:56:34 2022 +1000
+
+    Added more notes inside
+    
+    On branch algorithms
+    Changes to be committed:
+            new file:   FIT2004/depth-first-search/dfs_topological_sort.py
+            new file:   FIT2004/union-finding/union_find.py
+            new file:   FIT3077/design-patterns/pic3.png
+            new file:   FIT3159/instruction-set/readme.md
+            modified:   FIT3170/git/readme.md
+
+commit dbdcbfa15ba8d9301833edbd358d7a65b291138c
+Author: Luyang Liu <luyangl16@gmail.com>
+Date:   Thu Mar 31 15:38:14 2022 +1100
+
+    Updated git
+
+commit d2f9f38fa31e44cb5c6b765e8af2ace821fb288d
+Author: Luyang Liu <luyangl16@gmail.com>
+Date:   Wed Mar 30 15:33:17 2022 +1100
+
+    Updated graph
+    
+    On branch algorithms
+    Changes to be committed:
+            modified:   FIT2004/breadth-first-search/bfs.py
+            new file:   FIT2004/breadth-first-search/shortest_path_unweighted.py
+            modified:   FIT2004/directed-graph/directed_graph.py
+            modified:   FIT2004/directed-graph/undirected_graph.py
+            new file:   FIT2004/graphs.py
+            new file:   FIT2004/topology_sort/:w
+            new file:   FIT2004/topology_sort/kahn_topology_sort.py
+
+commit 2f2ff35889c960c73c5aad0377452285cff8e380
+Author: Luyang Liu <luyangl16@gmail.com>
+Date:   Tue Mar 29 17:41:41 2022 +1100
+
+    Updated notes
+    
+    On branch algorithms
+    Changes to be committed:
+            new file:   FIT2004/breadth-first-search/bfs.py
+            new file:   FIT2004/depth-first-search/connected_component.py
+            new file:   FIT2004/depth-first-search/cycle_finding.py
+            new file:   FIT2004/depth-first-search/dfs.py
+            modified:   FIT2004/directed-graph/undirected_graph.py
+
+commit 0be4febfdf6f8458381dbc4017be8c535624bbbd
+Author: Luyang Liu <luyangl16@gmail.com>
+Date:   Tue Mar 29 13:56:58 2022 +1100
+
+    Added undirected graph data structure.
+    
+    On branch algorithms
+    Changes to be committed:
+            new file:   FIT2004/directed-graph/test.py
+            new file:   FIT2004/directed-graph/undirected_graph.py
+            modified:   FIT3077/design-patterns/readme.md
+
+commit 8bcb9cb3df66d0ba5f7c9383a6863ff62e22220f
+Author: Luyang Liu <luyangl16@gmail.com>
+Date:   Tue Mar 29 12:06:07 2022 +1100
+
+    Updated readme for design patterns
+
+commit 1087ea14f4a99d7acb5c3765900812fc7f4a56cf
+Author: Luyang Liu <luyangl16@gmail.com>
+Date:   Tue Mar 29 11:38:22 2022 +1100
+
+    Updated image for abstract factory
+
+commit 0bc49ff05575e902e36176d8aac223711ef1b30d
+Author: Luyang Liu <luyangl16@gmail.com>
+Date:   Tue Mar 29 11:35:35 2022 +1100
+
+    Added abstract factory strcuture
+
+commit c2ddec59aca1f57447a73d8b6a289910ee50e16d
+Author: Luyang Liu <luyangl16@gmail.com>
+Date:   Tue Mar 29 11:11:30 2022 +1100
+
+    Fix image to showing
+
+commit 3fcc6afa00fae0ebbc7a5dc870b71ddcf8cf2887
+Author: Luyang Liu <luyangl16@gmail.com>
+Date:   Tue Mar 29 11:10:25 2022 +1100
+
+    Fixed image
+    
+    On branch algorithms
+    Changes to be committed:
+            modified:   FIT3077/design-patterns/readme.md
+
+commit 2e002c058e1d8686c1f27ba3180b87155bed5e8b
+Author: Luyang Liu <luyangl16@gmail.com>
+Date:   Tue Mar 29 11:09:26 2022 +1100
+
+    fixed image
+
+commit 26290f62929ec8c4c0d4547b482f0434ca186b28
+Author: Luyang Liu <luyangl16@gmail.com>
+Date:   Tue Mar 29 11:09:03 2022 +1100
+
+    Fixed image
+
+commit 280f554a20f4fd9363cc2a58536dd8926cb037c5
+Author: Luyang Liu <luyangl16@gmail.com>
+Date:   Tue Mar 29 11:07:31 2022 +1100
+
+    Added more notes and updated git ignore
+    
+    On branch algorithms
+    Changes to be committed:
+            modified:   .gitignore
+            new file:   FIT2004/archived_assignments/__pycache__/local_max.cpython-39-pytest-7.0.1.pyc
+            new file:   FIT2004/archived_assignments/__pycache__/local_max.cpython-39.pyc
+            new file:   FIT2004/archived_assignments/__pycache__/local_maximum.cpython-39.pyc
+            new file:   FIT2004/archived_assignments/__pycache__/local_maximum_wrong.cpython-39.pyc
+            new file:   FIT2004/archived_assignments/__pycache__/wordle.cpython-39.pyc
+            new file:   FIT2004/archived_assignments/__pycache__/wordle2.cpython-39.pyc
+            new file:   FIT2004/archived_assignments/local_max.py
+            new file:   FIT2004/archived_assignments/local_maximum_wrong.py
+            new file:   FIT2004/archived_assignments/unittest/fuzz_local_max.py
+            new file:   FIT2004/archived_assignments/unittest/fuzz_res.txt
+            new file:   FIT2004/archived_assignments/unittest/test_local_maximum.py
+            new file:   FIT2004/archived_assignments/unittest/test_wordle.py
+            new file:   FIT2004/archived_assignments/unittest/test_wordle2.py
+            new file:   FIT2004/archived_assignments/wordle.py
+            new file:   FIT2004/archived_assignments/wordle2.py
+            new file:   FIT2004/directed-graph/.ipynb_checkpoints/Untitled-checkpoint.ipynb
+            new file:   FIT2004/directed-graph/Untitled.ipynb
+            new file:   FIT2004/directed-graph/directed_graph.py
+            new file:   FIT2004/graph-algorithms/readme.md
+            new file:   FIT2004/heap_sort/FIT2001_2021_S2_Seminar_5_Use_Case_Diagrams.pdf
+            new file:   FIT2004/test_2022-03-28.py
+            deleted:    FIT3077/design-patterns/:w
+            renamed:    architecture/computer/binary-numbers-boolean-logic/readme.md -> FIT3159/computer/binary-numbers-boolean-logic/readme.md
+            renamed:    architecture/computer/intro/readme.md -> FIT3159/computer/intro/readme.md
+            renamed:    architecture/computer/lab1.md -> FIT3159/computer/lab1.md
+            renamed:    architecture/computer/tut1.md -> FIT3159/computer/tut1.md
+            renamed:    architecture/computer/tut2.md -> FIT3159/computer/tut2.md
+            new file:   FIT3159/computer/tut3.md
+            new file:   FIT3159/computer/week5/instruction-cycles-and-microcoded-units/readme.md
+            modified:   FIT3170/PI-planning/readme.md
+            new file:   FIT3170/risk-and-risk-management/readme.md
+
+commit b471c439f03b79de5b3a87609fc47f55dd104a36
+Author: Luyang Liu <luyangl16@gmail.com>
+Date:   Tue Mar 29 11:05:52 2022 +1100
+
+    Added notes for design patterns
+
+commit a8acc21228d0425c15cb37e9dcd4ba1937b8b671
+Author: Luyang Liu <luyangl16@gmail.com>
+Date:   Thu Mar 24 15:18:49 2022 +1100
+
+    Updated notes
+
+commit c95764703765c596c9a3694986adf65e8822d4c6
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Thu Mar 17 16:13:57 2022 +1100
+
+    added notes for mentoring and teams
+    
+    On branch algorithms
+    Changes to be committed:
+            new file:   FIT3170/mentorship/readme.md
+
+commit 8fdb159251468e9384a2c3ecee0dff6ccdee3b38
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Thu Mar 17 12:40:34 2022 +1100
+
+    Updated gitignore to not include assignment
+
+commit 5b7ca3c892efc72c61d40b7741b570031cc5d3f4
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Wed Mar 16 15:58:06 2022 +1100
+
+    Updated gitignore to ignore assignment files
+
+commit 5952dba4f7e949c5ad74dff6eb6ba9c470254ab5
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Wed Mar 16 10:24:50 2022 +1100
+
+    Added more sorting computer algorithms and updated software processes notes
+    
+    On branch algorithms
+    Changes to be committed:
+            new file:   FIT2004/DNF_quicksort.py
+            modified:   FIT2004/count_sort.py
+            deleted:    FIT2004/find_min.py
+            deleted:    FIT2004/insertion-sort/.#readme.md
+            modified:   FIT2004/insertion_sort.py
+            new file:   FIT2004/median_of_median.py
+            new file:   FIT2004/merge_k_list.py
+            new file:   FIT2004/merge_k_list2.py
+            modified:   FIT2004/quicksort.py
+            modified:   FIT2004/radix_sort.py
+            new file:   FIT2004/remove_duplicate2.py
+            modified:   FIT2101/non-functional-requirements/README.md
+            modified:   FIT3170/week2/readme.md
+
+commit c24c595be5b6bcdd73757b5fa1cabebd53ef70fd
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Mon Mar 14 13:41:59 2022 +1100
+
+    Added tutorial 2
+    
+    Changes to be committed:
+            new file:   architecture/computer/tut2.md
+
+commit 47adb429e1a8c5d84da117761566fe3bf660c118
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Mon Mar 14 13:41:20 2022 +1100
+
+    Added find_k_min online algorithm that is in place
+    
+    Changes not staged for commit:
+            deleted:    FIT2004/insertion-sort/.#readme.md
+    
+    Untracked files:
+            .ipynb_checkpoints/
+            .obsidian/
+            FIT2004/.ipynb_checkpoints/
+            FIT2004/Untitled.ipynb
+            FIT2004/__pycache__/
+            FIT2004/daily-algorithm-refresher/2022-03-02/.#insertion_sort.py
+            FIT2004/heap_sort/FIT2001_2021_S2_Seminar_5_Use_Case_Diagrams.pdf
+            FIT2004/heap_sort/Mathematica_13.0.1_BNDL_MAC_EXP.dmg
+            FIT2004/remove_duplicate2.py
+            architecture/computer/tut2.md
+            tut1_temp_submission.pdf
+
+commit 17524e4fae3b4d4f133b2310aa5929c2e282b3de
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Mon Mar 14 13:40:56 2022 +1100
+
+    Added removed duplicate algorithm that is in-place
+
+commit b5ae258e8d92db8b7121c43990aac8689a01c48c
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Mon Mar 14 13:40:07 2022 +1100
+
+    Updated sorting algrothithms.
+
+commit 06a6017e68d095b4030b42d303f17c7698914d59
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Sun Mar 13 22:05:20 2022 +1100
+
+    Added radix sort for base 10
+
+commit b1b8383b91f349b1592c596ff467765c216c7f3f
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Sun Mar 13 18:42:21 2022 +1100
+
+    Added count sort algorithm
+
+commit cfd48fa5cbe898336fc0866e0c83d858ece23495
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Thu Mar 10 16:08:39 2022 +1100
+
+    Added moreadded more notes
+    
+    Changes to be committed:
+            new file:   FIT2004/correctness-of-algorithm/readme.md
+            new file:   FIT2004/count_sort.py
+            new file:   FIT2004/heap_sort/__pycache__/binary_search_tree.cpython-39.pyc
+            new file:   FIT2004/heap_sort/__pycache__/heap.cpython-39.pyc
+            new file:   FIT2004/heap_sort/__pycache__/list.cpython-39.pyc
+            new file:   FIT2004/heap_sort/__pycache__/referential_array.cpython-39.pyc
+            new file:   FIT2004/heap_sort/__pycache__/stack.cpython-39.pyc
+            new file:   FIT2004/heap_sort/anyconnect-macos-4.10.01075-core-vpn-webdeploy-k9.dmg
+            new file:   FIT2004/heap_sort/binary_search_tree.py
+            new file:   FIT2004/heap_sort/binary_tree.py
+            new file:   FIT2004/heap_sort/heap.py
+            new file:   FIT2004/heap_sort/heapsort TODO.py
+            new file:   FIT2004/heap_sort/list.py
+            new file:   FIT2004/heap_sort/referential_array.py
+            new file:   FIT2004/heap_sort/stack.py
+            new file:   FIT2004/quick-sort/quicksort.py
+            new file:   FIT2004/reading.org
+            modified:   FIT2004/test.org
+            new file:   FIT2004/tmp.py
+            modified:   FIT3170/SAFe/worshop_notes.md
+            new file:   FIT3170/week2/readme.md
+            new file:   Untitled.ipynb
+            new file:   architecture/computer/lab1.md
+            modified:   design-process/README.md
+
+commit 3d86ddcf5d2e25ca515151cc1dd80171a38896b3
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Mon Mar 7 19:03:56 2022 +1100
+
+    Updated course notes
+    
+    On branch algorithms
+    Changes to be committed:
+            new file:   FIT2004/count-inversions/inversion_count_naive.py
+            new file:   FIT2004/count-inversions/inversion_sort.py
+            new file:   FIT2004/daily-algorithm-refresher/2022-03-02/insertion_sort.py
+            new file:   FIT2004/daily-algorithm-refresher/2022-03-02/merge_sort.py
+            new file:   FIT2004/daily-algorithm-refresher/2022-03-02/selection_sort.py
+            new file:   FIT2004/insertion-sort/.#readme.md
+            new file:   FIT2004/insertion-sort/readme.md
+            new file:   FIT2004/merge-sort/readme.md
+            new file:   FIT2004/recursive_karatsuba.py
+            modified:   FIT2004/selection-sort/readme.md
+            modified:   FIT2101/adaptive-versus-predictive/README.md
+            new file:   FIT3159/readme.md
+            new file:   FIT3170/SAFe/readme.md
+            new file:   FIT3170/SAFe/worshop_notes.md
+            modified:   architecture/computer/binary-numbers-boolean-logic/readme.md
+            modified:   architecture/computer/tut1.md
+
+commit f7710a7d34b9bad5bd5a145829e03ceb8792c280
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Tue Mar 1 12:25:39 2022 +1100
+
+    Added anaylsis and complexity notes. Added binary search
+
+commit 1d3c2125e9e07e40f04492cbad97987164b44b6b
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Mon Feb 28 13:11:46 2022 +1100
+
+    Added architecture notes
+
+commit 40cb0a0d6819067a00a688f5f2d899de662d1ff1
+Merge: 6a67769 bbc799d
+Author: Luyang Liu <luyangl16@gmail.com>
+Date:   Sun Jan 23 09:27:46 2022 +1100
+
+    Merge pull request #1 from luyangliuable/obsidian
+    
+    Test file chnage
+
+commit bbc799d49bc87c9d3e93a62c9adc0a003e9b7745
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Sun Jan 23 09:27:05 2022 +1100
+
+    Test file chnage
+
+commit 6a67769f0546e306131c2bbf4f7ca56af6dfe37d
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit 9351532919b96cf6662b7bcebbd705ec30b0e1ee
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit cefc0d42d9ee6553246ea8ce4d74c17c70330f0d
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit 4ba246db0426e7b763ef1c1b075a0757e1b68242
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit 466eb544633a8c838a26ccb62a143ff2854d5c96
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit ab93fe54a7f03fc8277c9e43de74e712799eaf1b
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Mon Nov 15 12:05:46 2021 +1100
+
+    Table of content
+
+commit bc573346d567129c2e3c76340b080fd459d4991a
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit a9854e7289c81a292c74be1af7a229f5128ced3e
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit 2525028dacbf341cec1b248f1a58ff50e4339721
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit 9ad191e8b182eb9022498e209f1a7ec98f11c5dd
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit ef18b2f7c500795203695de75ea9d785bfe57adc
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit 71bd07c555ab5affb407f0221d179f313d2c96e3
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit b37ce4cbf43501bb0408e8f24e0fdc7529b528e9
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit b622a6a741e14e57b8e4ba439250d8ae1422212c
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit 4c884520e15996391706c023b45b93f7142608e8
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit 2c942337457eb85fec6c29bf07f38846b0716e27
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit 82b68eab7b2f76369abb01e2c299f27b281dc032
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Sat Nov 13 13:42:26 2021 +1100
+
+    Added metrics notes
+
+commit 7d2983bdb60ac4d199ffc84c5ac6d5cf84c0f40b
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit 1053d2bf40ae9adb2e39544b12dde9ff74c84cee
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit c810062beb4d1c6a6d0a74932fab0206a204bcaa
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit 2bf64eab84cd36ae8779d137b358ca46e1d43c2e
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit fbc97868e68578ba2cfbb01594cb1133d4eeb6ed
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit 41485fae90647e4f4b8b489079726e1860aaba1f
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit 1f0895c9f48ea516f2896dc864894181c3382262
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Tue Nov 9 12:28:58 2021 +1100
+
+    Added degree property notes.
+    
+    Changes to be committed:
+            modified:   FIT2099/connascence/properties/README.md
+
+commit 56eb24460ad52edfb15c8a80e7f0432778949ccd
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit adf45148a1a67605fb5758539b7f2509b2b7400c
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit 447dac6ce6667c4f04ba6ba1c594032a192de94f
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit 398f348ab2d53ee4df9c09986977c644cddfe892
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit 22fe6abfcb9155d686c225bbd916194c5c1a29e2
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit 18b7991862ed11ee3800d59e613d9486f3d9fa18
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit acb117ddd1f2c35228f6834f038f972c5f5aade4
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit 45fffd6d61da5226d5b89334c5359333f302195e
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit 5c9b48920c73c321b76c77d2dc18f85c65a2ef69
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit d6115c2d53f38773cd4bd17963f68606c9bd107b
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit 9ba8262f71fab5535544111f6b7a80bcd59d010c
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit a9559a9c3efc91c0fe2ca7e18eadae364a55ffb7
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit 323b51fbb95cdc9141fbf9885a95cdaefa1460ea
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit 4b9a6b7691981dc2a83e15f733a1620deaa4b871
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit a4525ede4b302a091fa10d8ab7bb8c492b5ef8d2
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:36 2021 +1100
+
+    Table of content
+
+commit 53b7d7e8c9691885d264221acd7b545aed4b3c40
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 11:01:03 2021 +1100
+
+    Feature creep
+    
+    On branch newbranch
+    Changes to be committed:
+            modified:   FIT2101/risks-and-risk-management/README.md
+
+commit 5eb73404a025b715daa952b2e030323a6d3b12d1
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 10:57:28 2021 +1100
+
+    Risk evasion
+
+commit 4e1519f7c15124e3d5e146517b89a95c38c5fb26
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Nov 5 10:55:52 2021 +1100
+
+    Added risk management notes
+
+commit b4955d13dd8bf9c2a404678c0a2bade5e08134ec
+Author: luyang <lliu240@student.monash.edu>
+Date:   Wed Nov 4 22:54:42 2009 +1100
+
+    feeling old yet?
+
+commit 6d0cae4806509e5d66f7bd22add4adf5b80ba199
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Thu Nov 4 22:50:58 2021 +1100
+
+    Poo pooo
+
+commit 14c8079df1f8dfe2996a9764143b16af3228acad
+Author: luyang <lliu240@student.monash.edu>
+Date:   Wed Oct 27 21:26:46 2021 +1100
+
+    Added new notes
+
+commit 6ac7c22ceb2cdf7e782833544324d7fb2f9279e1
+Author: luyang <lliu240@student.monash.edu>
+Date:   Wed Oct 27 21:26:46 2021 +1100
+
+    Added new notes
+
+commit 497657f02bb18d64641dfe39849e80b694fdc33b
+Author: luyang <lliu240@student.monash.edu>
+Date:   Wed Oct 27 21:26:46 2021 +1100
+
+    Added new notes
+
+commit 3357fe24dd22cf51a555e07837b21984585a5694
+Author: luyang <lliu240@student.monash.edu>
+Date:   Wed Oct 27 21:26:46 2021 +1100
+
+    Added new notes
+
+commit a36c8bcf20ad98917bd61e36aeeb13062740292b
+Author: luyang <lliu240@student.monash.edu>
+Date:   Wed Oct 27 21:26:46 2021 +1100
+
+    Added new notes
+
+commit 08b260e6137ecb7cdb6efe1f0b6344fb61719482
+Author: luyang <lliu240@student.monash.edu>
+Date:   Wed Oct 27 21:26:46 2021 +1100
+
+    Added new notes
+
+commit 227d0c01920b201376880736ebeaf5efda1e0525
+Author: luyang <lliu240@student.monash.edu>
+Date:   Wed Oct 27 21:26:46 2021 +1100
+
+    Added new notes
+
+commit f44c8800a7a3a6b54ee4166d819377c99f7cf277
+Author: luyang <lliu240@student.monash.edu>
+Date:   Wed Oct 27 21:26:46 2021 +1100
+
+    Added new notes
+
+commit 76f899c43bf2641db01da4a39b350cca18ef5846
+Author: luyang <lliu240@student.monash.edu>
+Date:   Wed Oct 27 21:26:46 2021 +1100
+
+    Added new notes
+
+commit c40c41ca9ed131767a7a221a990c61bf31ed8043
+Author: luyang <lliu240@student.monash.edu>
+Date:   Wed Oct 27 21:26:46 2021 +1100
+
+    Added new notes
+
+commit 3770e2756795a0a0df79263cfa0f33a63d9003bf
+Author: luyang <lliu240@student.monash.edu>
+Date:   Wed Oct 27 21:26:46 2021 +1100
+
+    Added new notes
+
+commit 6e9781ff893e88e97403d9341dd59c5f5855d958
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Mon Nov 1 23:55:46 2021 +1100
+
+    More notes on uml
+
+commit ee73f8bf9cc916b79ef0f502dd681e78007b109c
+Author: luyang <lliu240@student.monash.edu>
+Date:   Wed Oct 27 21:26:46 2021 +1100
+
+    Added new notes
+
+commit 810bf32b54b40246250e4b7ff4ee2d80b4a9b3e7
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Thu Oct 28 23:38:27 2021 +1100
+
+    INlcuded missing break lines
+    
+    Changes to be committed:
+            modified:   FIT2101/exam/README.md
+
+commit bb58c9ac1d81e0b0b1e46aeaa07b087ce972098a
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Thu Oct 28 23:38:27 2021 +1100
+
+    INlcuded missing break lines
+    
+    Changes to be committed:
+            modified:   FIT2101/exam/README.md
+
+commit 70b4744152d7ff7bcd9f35999a958c590fe8b9b8
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Thu Oct 28 23:38:27 2021 +1100
+
+    INlcuded missing break lines
+    
+    Changes to be committed:
+            modified:   FIT2101/exam/README.md
+
+commit 86e35d2e40cd61f5adfeb913ca6a7f4fc756691b
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Thu Oct 28 23:38:27 2021 +1100
+
+    INlcuded missing break lines
+    
+    Changes to be committed:
+            modified:   FIT2101/exam/README.md
+
+commit 05f45e72f0571a67aab655480a5cfe576b791df5
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Fri Oct 29 21:47:20 2021 +1100
+
+    Added more notes
+    
+    Changes to be committed:
+            modified:   FIT2101/deployment-and-postdeployment/README.md
+            modified:   FIT2101/exam/README.md
+
+commit e8bd7dcfafe3cf4bdb34e206e3902c83494d0742
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Fri Oct 29 20:10:43 2021 +1100
+
+    Fixed heading sizes
+
+commit ffaa0620c3cd41a0b74598d4c456ea19318a01be
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Fri Oct 29 20:09:16 2021 +1100
+
+    Added  deployment-and-postdeployment notes
+    
+    Changes to be committed:
+            new file:   FIT2101/deployment-and-postdeployment/README.md
+
+commit 9c77e0afc712ae41ed34f3f765f5d92fdde01975
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Fri Oct 29 19:28:14 2021 +1100
+
+    Added devOps notes
+    
+    Changes to be committed:
+            new file:   FIT2101/devops/README.md
+
+commit 7ee1e2184c3ba1559e5935a5d0fa2a3c0662543c
+Author: luyang <lliu240@student.monash.edu>
+Date:   Wed Oct 27 21:26:46 2021 +1100
+
+    Added new notes
+
+commit 0bf800cbcf8ad1547094a495c2175cd0ebb2f579
+Author: luyang <lliu240@student.monash.edu>
+Date:   Wed Oct 27 21:26:46 2021 +1100
+
+    Added new notes
+
+commit 91b83a57662faafdca4d2e25fb99858450c650ce
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Thu Oct 28 23:38:27 2021 +1100
+
+    INlcuded missing break lines
+    
+    Changes to be committed:
+            modified:   FIT2101/exam/README.md
+
+commit 216b92b70ebe1788ce72de935d47c1797762e1c1
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Thu Oct 28 23:38:27 2021 +1100
+
+    INlcuded missing break lines
+    
+    Changes to be committed:
+            modified:   FIT2101/exam/README.md
+
+commit cf5933d402a4363e7c5fc0691e171f5ad676d1ab
+Author: luyang <lliu240@student.monash.edu>
+Date:   Wed Oct 27 21:26:46 2021 +1100
+
+    Added new notes
+
+commit 8d002f70b2b23bcc50a169360f39ce4bc7c207d3
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Oct 29 14:10:01 2021 +1100
+
+    Added connascence notes
+    
+    Changes to be committed:
+            new file:   FIT2099/connascence/README.md
+
+commit 3cef17bbfc141220735c994024cee98d1efb94dd
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Oct 29 14:10:01 2021 +1100
+
+    Added connascence notes
+    
+    Changes to be committed:
+            new file:   FIT2099/connascence/README.md
+
+commit 9e2b8a1bb76889cfd34720da9dff373d3ff4c9a1
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Oct 29 14:10:01 2021 +1100
+
+    Added connascence notes
+    
+    Changes to be committed:
+            new file:   FIT2099/connascence/README.md
+
+commit 0aa4aea1b51107f43c1f5d749ac51cdb42f43a07
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Oct 29 14:10:01 2021 +1100
+
+    Added connascence notes
+    
+    Changes to be committed:
+            new file:   FIT2099/connascence/README.md
+
+commit b26b0fe1c3265db81c4f268b1ea90699d5603e85
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Oct 29 14:10:01 2021 +1100
+
+    Added connascence notes
+    
+    Changes to be committed:
+            new file:   FIT2099/connascence/README.md
+
+commit 0460774229dea1b4961e55fc4d3b2e9a9fef409e
+Author: Luyang Liu <https://github.com/luyangliuable>
+Date:   Fri Oct 29 13:57:46 2021 +1100
+
+    Added FEA aero notes scanned
+
+commit a3e5db528768f28282854df37fc7b66fea6889a5
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Thu Oct 28 23:38:27 2021 +1100
+
+    INlcuded missing break lines
+    
+    Changes to be committed:
+            modified:   FIT2101/exam/README.md
+
+commit 33550be4a45ce9723db4ece6baa9f0f2d6f96e6f
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Thu Oct 28 23:37:40 2021 +1100
+
+    Updated readme for exam notes
+    
+    Changes to be committed:
+            modified:   FIT2101/exam/README.md
+
+commit a11c1fe92e31695fb07bfa1f9d801baab0de8d92
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Thu Oct 28 23:10:06 2021 +1100
+
+    added more forgotten break lines
+    
+    Changes to be committed:
+            modified:   FIT2101/exam/README.md
+
+commit 034ba99c715f12a3f7158e8941e3801c3d158ca9
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Thu Oct 28 23:08:50 2021 +1100
+
+    Added missing break lines
+    
+    Changes to be committed:
+            modified:   FIT2101/exam/README.md
+
+commit d47db75abac36dc115889053dabbcf538c64ff62
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Thu Oct 28 23:06:41 2021 +1100
+
+    Updated fit2101 exam readme
+    
+    Changes to be committed:
+            modified:   FIT2101/exam/README.md
+
+commit fedb116cd88bb6c945a41fba8b97b12cfbdbaa5a
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Thu Oct 28 23:05:23 2021 +1100
+
+    Updated fit2101 exam readme
+
+commit 6a86c533b658d42c4bda2c8a93f216a11631c365
+Author: luyang <lliu240@student.monash.edu>
+Date:   Thu Oct 28 22:13:42 2021 +1100
+
+    Updated exam notes
+
+commit 1481db57464e103a8b374d184bb185d79342db43
+Author: luyang <lliu240@student.monash.edu>
+Date:   Thu Oct 28 21:15:05 2021 +1100
+
+    added more notes
+
+commit cebed48634d184f99ec3cb9f1be0f56401ca31bd
+Author: luyang <lliu240@student.monash.edu>
+Date:   Wed Oct 27 21:26:46 2021 +1100
+
+    Added new notes
+
+commit 24ebe612159495075d9dd8f8ccdcf646e5bde89e
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Tue Oct 26 14:22:23 2021 +1100
+
+    uploaded aero notes.
+
+commit 085ba010c3a5d4cb8ace0ef25fd1707b216afb1b
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Tue Oct 26 12:29:06 2021 +1100
+
+    New changes
+
+commit 76ee1a5aa8adf8f6a04d0865f59e5242f5cb0c0c
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Tue Oct 26 12:23:07 2021 +1100
+
+    Added table of content for exam
+    
+    Changes to be committed
+            modified:   FIT2099/EXAMREADME.md
+
+commit ff6308ced2de3fac88f287a068eef4cf1f41f95c
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Tue Oct 26 12:21:56 2021 +1100
+
+    Updated exam readme.md
+
+commit 5cbf83cf8f39800309f06bcc4f60ff4030a45800
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Tue Oct 26 11:32:19 2021 +1100
+
+    Fixed checklsit format
+    
+    Changes to be committed:
+            modified:   FIT2099/CHECKLIST/README.md
+
+commit c95d74bd13601235e653196960506462df7bd844
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Tue Oct 26 11:27:35 2021 +1100
+
+    INcluded new exam notes.
+    
+    Changes to be committed:
+            new file:   FIT2099/CHECKLIST/README.md
+            new file:   FIT2099/EXAM/README.md
+            modified:   teams-and-teamwork/README.md
+
+commit 123a24da7fc583fef991583605efc8a375a5751e
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Sat Oct 23 19:46:53 2021 +1100
+
+    correct readme filename
+    
+    Changes to be committed:
+            renamed:    teams-and-teamwork/teams-and-teamwork.md -> teams-and-teamwork/README.md
+
+commit cb4e100762ed20adc47061e9f4a3f0f139460806
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Sat Oct 23 19:45:28 2021 +1100
+
+    Notes for teamwork.
+
+commit a7993b8b3fdd687a2348b38318002275b6df2b3f
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Fri Oct 22 10:49:02 2021 +1100
+
+    Added table of contents
+    
+    Changes to be committed:
+            modified:   design-process/README.md
+
+commit cd3868ada75af968550fb83ad86e96ca9d47f412
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Fri Oct 22 10:47:10 2021 +1100
+
+    Fixed wrong image
+    
+    Changes to be committed:
+            modified:   design-process/README.md
+
+commit 098cd6fd17fd45f1f6b3840d5856d698a0cc3943
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Fri Oct 22 10:44:02 2021 +1100
+
+    Added more info on crc cards
+    
+    Changes to be committed:
+            modified:   design-process/README.md
+            new file:   design-process/process3.png
+            new file:   design-process/process4.png
+
+commit df723d426865d671689e578c98dc68dc0ad8c265
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Fri Oct 22 09:35:12 2021 +1100
+
+    fixes
+    
+    Changes to be committed:
+            modified:   design-process/README.md
+
+commit 7c08818055aa53466472b8bd51d80469dbd0cb84
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Fri Oct 22 09:34:13 2021 +1100
+
+    Added scenario based deisgn
+    
+    Changes to be committed:
+            modified:   design-process/README.md
+            new file:   design-process/process1.png
+            new file:   design-process/process2.png
+
+commit 4c5319afb18c8e76520f965688bc33ba9d6fafd7
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Fri Oct 22 09:08:08 2021 +1100
+
+    fix
+    
+    Changes to be committed:
+            modified:   design-process/README.md
+
+commit bd734f1bdfa505dbb35559833d8365916cb3d164
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Fri Oct 22 09:07:07 2021 +1100
+
+    fixed images not rendering
+    
+    Changes to be committed:
+            modified:   design-process/README.md
+
+commit 877198a9e0c98527f385c5e9254ac9fc97a2357c
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Fri Oct 22 09:03:03 2021 +1100
+
+    Fixed images not rendering
+    
+    On branch fit2107
+    Changes to be committed:
+            modified:   design-process/README.md
+            new file:   design-process/crcCardExample.jpg
+            new file:   design-process/uiSketchStudentEdit.jpeg
+
+commit 36bba17d7eadaa293ab5d3ffb664ba41db07597c
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Fri Oct 22 08:59:48 2021 +1100
+
+    Added design-process notes for fit2099
+    
+    On branch fit2107
+    Changes to be committed:
+            new file:   design-process/README.md
+
+commit 9f91f5d7923a8c7cc1898bef92d2f728d1d29e45
+Author: Luyang Liu <lli240@student.monash.edu>
+Date:   Thu Oct 21 16:33:38 2021 +1100
+
+    Moved code-smell notes into code smell folder
+    
+    Changes to be committed:
+            renamed:    README.md -> code-smells/README.md
+
+commit 38e8f25011ba03bb81e61c05cfbf58379fbe959b
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Tue Aug 13 08:37:44 2013 -0700
+
+    Rearrange notes
+
+commit ab88722ca648be4f0708c0cacfef5cba0db1ac73
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Tue Aug 13 08:35:04 2013 -0700
+
+    Move license information to the bottom
+
+commit b227cc71ae206a6094bc106e0d52e9d526fc0061
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Tue Aug 13 08:33:20 2013 -0700
+
+    Add quote about private methods and Feature Envy
+
+commit b9e17152d637a9fa818459197b6a0993d0d539a2
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Mon Aug 12 21:39:08 2013 -0700
+
+    Add paragraph talking about code smells for other types of languages
+
+commit 586f888491cfc280ee357b8c6ba7e29868a02993
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Mon Aug 12 20:47:32 2013 -0700
+
+    Add clarifying statement about code examples in other languages
+
+commit b930a1239ff1b91cf2f769c6c54049851bf71c39
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Mon Aug 12 19:06:18 2013 -0700
+
+    Remove Markdown encoding from example comments
+
+commit fb51fbbb56e895c101653ef212d6cdab0919b893
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Mon Aug 12 12:29:35 2013 -0700
+
+    Add code markers for attr_reader
+
+commit 6e8f1f8176ffd78eb697a6e41f1fa130b988c800
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Mon Aug 12 11:28:30 2013 -0700
+
+    Remove pedantic an
+
+commit e096cd872309c17566929197f84e945e7da5f718
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Mon Aug 12 07:59:02 2013 -0700
+
+    Remove center tags that don't work
+
+commit f8294118a5800f4039d3400f6d29004681f56bb4
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Mon Aug 12 07:58:22 2013 -0700
+
+    Reformat license to make it look better
+
+commit 3bd3d4d5103eccd0dc3b288fdcea6abddc2cc7db
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Mon Aug 12 07:57:07 2013 -0700
+
+    Add Creative Commons license
+
+commit 6b264a6fdfa2bff867348ebaf27c733c52096db3
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Mon Aug 12 07:55:29 2013 -0700
+
+    Add statement about linking
+
+commit 1c5664b461cd81e9c5ad440b35a47c8bde132b17
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Mon Aug 12 07:50:46 2013 -0700
+
+    Add statement that Ruby is not exclusively the language for examples
+
+commit ab56ddbc1984256f0e7779fb19064c0a77368b92
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Mon Aug 12 07:48:44 2013 -0700
+
+    Remove statement that Martin Fowler coined the term
+
+commit 80eff62a66f0965089dbacad4082f980bb6530b9
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Mon Aug 12 07:47:53 2013 -0700
+
+    Add link to Martin Fowler's definition of Code Smells
+
+commit 368bd40e43e7daf06153166feb17d1e2898e7d1c
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Mon Aug 12 07:37:29 2013 -0700
+
+    Rewriting the simple explanation for Comments
+
+commit cbeb337c652c661474005dfc7260fec46fded80a
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Mon Aug 12 07:33:19 2013 -0700
+
+    Reflow the comment for readability
+
+commit 0ed670009c0df05d44216ce371c0b5b346325910
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Mon Aug 12 07:32:24 2013 -0700
+
+    Add a lot more explanation for Comments
+
+commit b2691b86134ed183f56047a8f02300fb1b2c5a4f
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Mon Aug 12 06:36:51 2013 -0700
+
+    Reword Alternative Classes description
+
+commit 86943c037818f4f0654bb422b28570b702188440
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Sun Aug 11 21:48:39 2013 -0700
+
+    Add reference to DRY for Duplicate Code
+
+commit d87e05a4166085fe1fbd6f2a599b17ff03756c0e
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Sun Aug 11 21:30:12 2013 -0700
+
+    Add basic explanation for smells that need refactoring
+
+commit b0087c8505b88a0c3e3bbecbec9c522bee1692bf
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Sun Aug 11 21:25:33 2013 -0700
+
+    Rephrase to make clearer
+
+commit ae3a48e3b008c51afb011414ddbf3e3225b9eb45
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Sun Aug 11 21:24:23 2013 -0700
+
+    Rephrase to not sound so lame
+
+commit e43e226e2cdc57872771ead1a38e6b2de1021599
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Sun Aug 11 17:22:26 2013 -0700
+
+    Make reference to fluent interfaces more clear
+
+commit b2b46d2903dcd879432172a3eaa37c2d9f721c37
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Sun Aug 11 16:40:03 2013 -0700
+
+    Refine quote even further
+
+commit c0b44a08317d17ef243087f352986c5cd31ab974
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Sun Aug 11 16:39:17 2013 -0700
+
+    Make quote more clear
+
+commit a6e27d1254795a71c34e2b5ecd891c55cc3060f8
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Sun Aug 11 16:38:14 2013 -0700
+
+    Add references between Feature Envy and Middle Man
+
+commit cc1a5afd580848c0cd3290351e4fd5b4d00cbe58
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Sun Aug 11 16:34:53 2013 -0700
+
+    Separate out fluent interface stuff and convert example to Ruby
+
+commit d42e4192c679d275e19a0775938a3f68f86fc5e0
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Sun Aug 11 16:23:50 2013 -0700
+
+    Fix typo and make more clear
+
+commit bc3c1fdeb65942f5d7725432221fc48708bf7ab3
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Sun Aug 11 16:21:40 2013 -0700
+
+    Add reference to Anti Patterns
+
+commit 98406c16eac50131f2f286dc039d44a25f6147c2
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Sun Aug 11 16:12:55 2013 -0700
+
+    Add YAGNI reference to Speculative Generality
+
+commit 3c6be715db8015db7a78e4fb184193344b5ffbd7
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Sun Aug 11 16:11:04 2013 -0700
+
+    Change procedure to function
+
+commit da01a27893846e9d1aae8487a54917dd9b584911
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Sun Aug 11 16:10:00 2013 -0700
+
+    Add explanation to Lazy Class
+
+commit c64448309404108ae210e5bcf8284b64511ba1f0
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Sun Aug 11 16:05:15 2013 -0700
+
+    Simplify the language
+
+commit 90620eff4e0ac504247f7e05516e0fb74a1645aa
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Sun Aug 11 16:04:42 2013 -0700
+
+    Add explanation for why Ruby
+
+commit 7d60f4b0f3dfdd53f88b8381ccc2f80485cfb3af
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Sun Aug 11 15:58:13 2013 -0700
+
+    Remove Clean Code code smells for now
+
+commit c1bc575957693ad94556ddf76bbea39e10ac2418
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Sun Aug 11 15:55:57 2013 -0700
+
+    Added more explanation for Duplicate Code
+
+commit ead4b4f88e5936ce461209208b6c848e350dd0f7
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Sun Aug 11 12:52:07 2013 -0700
+
+    Add examples for Data Clumps
+
+commit 836fe72317aa59d54a877adb1eb4f10e2f97926c
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Fri Aug 9 11:08:49 2013 -0700
+
+    Reduce header levels
+
+commit 84303067d85084495bba47eb77d2422e79da3293
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Fri Aug 9 03:00:09 2013 -0700
+
+    Add some more clarification in some places
+
+commit 9e8590424957f3856b25355bf64bdf59035c6911
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Thu Aug 8 21:37:23 2013 -0700
+
+    Add an explanation and example for Data Class
+
+commit a4faeb979854ba7e47f9bf4590583c825c7fa720
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Thu Aug 8 21:17:57 2013 -0700
+
+    Clarified a sentence about code being rewritten
+
+commit 5de95bb6e27603075c3466aa22ab878400d02656
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Thu Aug 8 21:16:53 2013 -0700
+
+    Removed unclear statement
+
+commit 51436b483b52e219f6c1f28ffc61c2f76e13078d
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Thu Aug 8 21:15:32 2013 -0700
+
+    Add explanation for Comments as code smell
+
+commit 38956b82cf287a99765ea1782c988c020a98f089
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Thu Aug 8 21:03:43 2013 -0700
+
+    Add clarification for Primitive Obsession
+
+commit 820f7319510fa6014f7f8ee771da55372a5dadea
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Thu Aug 8 20:42:32 2013 -0700
+
+    Add attributions to many of the quotes
+
+commit dd3da1eebae2935c2e435e9f7dc9a61b388343bc
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Thu Aug 8 20:15:51 2013 -0700
+
+    Finish quoting all bits taken from source text
+
+commit c74378ed45c49db3612adcf4f242d33c05a36722
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Thu Aug 8 20:12:34 2013 -0700
+
+    Add Ruby-specific code smells
+
+commit 6ef8d54accbe2ac0bccedf4b7829b102f215a043
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Thu Aug 8 20:03:15 2013 -0700
+
+    Reformat code for better line wrapping
+
+commit 378e1e9cb80f6b00714aa8737f55b1d00125abe2
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Thu Aug 8 20:02:21 2013 -0700
+
+    Add missing link
+
+commit f8efcc62b35933c989a05a8b428f76d23333127e
+Author: Lee Dohm <lee@liftedstudios.com>
+Date:   Thu Aug 8 13:39:58 2013 -0700
+
+    Initial commit
+
+commit da9ea37193b39ca95cbbd692940e01247ad29c49
+Author: Luyang Liu <luyangl16@gmail.com>
+Date:   Wed Sep 15 09:30:22 2021 +1000
+
+    first commit using magit and staging by chunnks
+
+commit b8f180fd6ce13241d185ea6d6ae7549bca740af1
+Author: Luyang Liu <luyangl16@gmail.com>
+Date:   Wed Sep 15 09:23:29 2021 +1000
+
+    testing git

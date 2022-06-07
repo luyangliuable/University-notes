@@ -65,3 +65,24 @@ for _ in range(115):
     print("result", binary_search(test_arr, test_arr[index]))
 
 ```
+
+## Time complexity
+O(log(n)) where n is the length of the array
+
+
+## Proof of correctness
+### Invariant
+* If the middle element is the key, simply return the key and the algorithm ends 
+* if the middle element is smaller than the key then search the right half of the array, otherwise right half.
+
+### Starting
+* The algorithms starts to search from the middle of the array, the only possibilities if the element exists inside it is either smaller, equal or larger than the middle element.
+
+### Maintainence
+* Each iteration the algorithm determines which half of the value must be in so it can get rid of half of the array.
+
+
+### Termination
+* At one iteration if the element is the middle element simply return the middle element index and the algorithm ends correctly.
+* If the element to search for is not inside, the algorithms terminates when lo == hi or lo == len(arr) + 1 (empty array) from halving every time and the algorithm ends and certain that the element is not inside.
+* Therefore the algorithm is correct.
